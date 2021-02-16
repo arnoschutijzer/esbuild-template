@@ -1,7 +1,8 @@
-const sharedConfig = require('./esbuild.shared');
-const liveServer = require('live-server');
+import sharedConfig from './esbuild.shared';
+import { build } from 'esbuild';
+import { start } from 'live-server';
 
-require('esbuild').build({
+build({
   ...sharedConfig,
   define: {
     'process.env.NODE_ENV': '"development"'
@@ -14,7 +15,7 @@ require('esbuild').build({
   }
 });
 
-liveServer.start({
+start({
   port: 8080,
   open: true,
   root: 'public',

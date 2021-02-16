@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   entryPoints: ['./src/app.jsx'],
   bundle: true,
   minify: true,

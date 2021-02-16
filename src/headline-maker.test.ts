@@ -8,10 +8,6 @@ describe('capitalizeLetter', () => {
   it('capitalizes first letter of "w"', () => {
     expect(capitalizeFirstLetter('w')).toEqual('W')
   });
-
-  it('capitalizes first letter of ""', () => {
-    expect(() => capitalizeFirstLetter()).toThrow()
-  });
 });
 
 describe('makeHeadLine', () => {

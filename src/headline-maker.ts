@@ -1,4 +1,4 @@
-export default function makeHeadLine(text) {
+export default function makeHeadLine(text: String): String {
   return text
     .split(' ')
     .map((word) => {
@@ -7,10 +7,6 @@ export default function makeHeadLine(text) {
     .join(' ');
 }
 
-export function capitalizeFirstLetter(word) {
-  if (word === undefined || word === null) {
-    throw new Error('empty word');
-  }
-
+export function capitalizeFirstLetter(word: String): String {
   return `${word[0].toUpperCase()}${word.substr(1, word.length)}`;
 }

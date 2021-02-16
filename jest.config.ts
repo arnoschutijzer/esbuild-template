@@ -1,9 +1,9 @@
 /*
- * For a detailed explanation regarding each configuration property, visit:
+ * For a detailed explanation regarding each configuration property and type check, visit:
  * https://jestjs.io/docs/en/configuration.html
  */
 
-module.exports = {
+export default {
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
@@ -172,9 +172,8 @@ module.exports = {
   // timers: "real",
 
   // A map from regular expressions to paths to transformers
-  // transform: undefined,
   "transform": {
-    "^.+\\.jsx?$": "esbuild-jest"
+    "^.+\\.tsx?$": "esbuild-jest"
   },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
