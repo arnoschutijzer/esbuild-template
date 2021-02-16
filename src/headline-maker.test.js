@@ -1,4 +1,4 @@
-import makeHeadLine, { capitalizeFirstLetter } from './headlineMaker';
+import makeHeadLine, { capitalizeFirstLetter } from './headline-maker';
 
 describe('capitalizeLetter', () => {
   it('capitalizes first letter of "word"', () => {

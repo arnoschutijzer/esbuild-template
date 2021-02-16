@@ -9,7 +9,7 @@ require('esbuild').build({
   watch: {
     onRebuild(error, result) {
       if (error) console.error('watch build failed:', error)
-      else console.error('watch build succeeded:', result)
+      else console.error('watch build succeeded. warnings:', result.warnings)
     }
   }
 });
