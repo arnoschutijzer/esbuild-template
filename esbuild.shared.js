@@ -1,5 +1,5 @@
 module.exports = {
-  entryPoints: ['app.jsx'],
+  entryPoints: ['./src/app.jsx'],
   bundle: true,
   minify: true,
   sourcemap: true,

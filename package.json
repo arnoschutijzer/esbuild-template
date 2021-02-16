@@ -6,13 +6,15 @@
   "scripts": {
     "dev": "node esbuild.dev.js",
     "build": "node esbuild.build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.8.46",
+    "esbuild-jest": "^0.4.0",
+    "jest": "^26.6.3",
     "live-server": "^1.2.1"
   },
   "dependencies": {
