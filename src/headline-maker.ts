@@ -1,10 +1,10 @@
 export default function makeHeadLine(text: String): String {
   return text
-    .split(' ')
+    .split(" ")
     .map((word) => {
       return capitalizeFirstLetter(word);
     })
-    .join(' ');
+    .join(" ");
 }
 
 export function capitalizeFirstLetter(word: String): String {

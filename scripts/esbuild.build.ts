@@ -1,4 +1,4 @@
-import sharedConfig from './esbuild.shared';
-import { buildSync } from 'esbuild';
+import sharedConfig from "./esbuild.shared";
+import { buildSync } from "esbuild";
 
-buildSync(sharedConfig)
+buildSync(sharedConfig);

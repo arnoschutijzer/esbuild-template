@@ -1,11 +1,11 @@
 export default {
-  entryPoints: ['./src/app.jsx'],
+  entryPoints: ["./src/app.jsx"],
   bundle: true,
   minify: true,
   sourcemap: true,
-  target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
-  outfile: 'public/bundle.js',
+  target: ["chrome58", "firefox57", "safari11", "edge16"],
+  outfile: "public/bundle.js",
   define: {
-    'process.env.NODE_ENV': '"production"',
-  }
-}
+    "process.env.NODE_ENV": '"production"',
+  },
+};
