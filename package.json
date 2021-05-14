@@ -7,7 +7,8 @@
     "dev": "ts-node ./scripts/esbuild.dev.ts",
     "build": "ts-node ./scripts/esbuild.build.ts",
     "test": "jest",
-    "lint": "prettier . --write"
+    "lint": "prettier . --check",
+    "lint:write": "prettier . --write"
   },
   "keywords": [],
   "author": "",
