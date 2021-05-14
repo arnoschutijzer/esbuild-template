@@ -22,9 +22,11 @@ build({
 });
 
 start({
-  port: FRONTEND_PORT,
+  port: FRONTEND_PORT as number,
   open: true,
   root: "public",
   file: "index.html",
+  // @ts-ignore
+  // proxy is not a known property
   proxy: ENABLE_PROXY ? [["/api", `http://127.0.0.1:${PROXY_PORT}/api`]] : [],
 });

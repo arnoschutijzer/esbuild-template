@@ -1,6 +1,8 @@
 import dom from "react-dom";
 import React from "react";
 
+import "./app.scss";
+
 import makeHeadLine from "./headline-maker";
 
 dom.render(
