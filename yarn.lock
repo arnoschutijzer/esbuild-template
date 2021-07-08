@@ -643,10 +643,10 @@
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
 
-"@types/live-server@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@types/live-server/-/live-server-1.2.0.tgz#3ae39bfb19fedda17c3aa29d0b7edf9486971462"
-  integrity sha512-XOz2bXwMbTBwM67yNgYnKjgKel8VF9660offh7SnK8GAHrzLjhYf4Rt/XXZUc9YDfi163yW5uV2jwOSgtedLRw==
+"@types/live-server@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@types/live-server/-/live-server-1.2.1.tgz#4d6588e1b888b415ed5fe8480224dcd225bc9eba"
+  integrity sha512-Yind497JdcZT8L9FF7u73nq44KmamiDitsZJEwrAi/pgBhFHThNvtR+2Z/YGNSMjyUoDBFdvhVSQmod06yd1Ng==
 
 "@types/node@*":
   version "15.12.4"
