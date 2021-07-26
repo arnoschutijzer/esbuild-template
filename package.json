@@ -18,7 +18,7 @@
     "@types/live-server": "1.2.1",
     "@types/react": "17.0.15",
     "@types/react-dom": "17.0.9",
-    "esbuild": "0.12.15",
+    "esbuild": "0.12.16",
     "esbuild-jest": "0.5.0",
     "esbuild-plugin-sass": "0.5.2",
     "jest": "27.0.6",
