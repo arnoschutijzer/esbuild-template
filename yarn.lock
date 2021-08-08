@@ -1556,10 +1556,10 @@ esbuild-jest@0.5.0:
     "@babel/plugin-transform-modules-commonjs" "^7.12.13"
     babel-jest "^26.6.3"
 
-esbuild-plugin-sass@0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/esbuild-plugin-sass/-/esbuild-plugin-sass-0.5.2.tgz#be3e015b098948318ff4c21f2fcfc4808988e383"
-  integrity sha512-9XKqbAqQ9c8JJ8ctfKDrsSBiux7kalQwYU3/KOrNJWEtso9eTy/ODISLAMyFB7ec143Wo1YV4vslfXXHJIWFEA==
+esbuild-plugin-sass@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/esbuild-plugin-sass/-/esbuild-plugin-sass-0.6.0.tgz#1fd6cf78fc1290621e86d39880ec52f0ac52b138"
+  integrity sha512-WuQu6sIx9SUwEJ5yLO3Bk86R4vPnC5rzCr4mdOzBWdi0CyC56pIVNrpVgoNkqG/qrQPmh49aYg+9QYJTCRuYAw==
   dependencies:
     css-tree "^1.1.2"
     fs-extra "^9.0.1"
