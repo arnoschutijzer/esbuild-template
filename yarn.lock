@@ -1874,10 +1874,10 @@ esbuild-openbsd-64@0.14.11:
   resolved "https://registry.yarnpkg.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.14.11.tgz#caeff5f946f79a60ce7bcf88871ca4c71d3476e8"
   integrity sha512-l18TZDjmvwW6cDeR4fmizNoxndyDHamGOOAenwI4SOJbzlJmwfr0jUgjbaXCUuYVOA964siw+Ix+A+bhALWg8Q==
 
-esbuild-plugin-sass@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/esbuild-plugin-sass/-/esbuild-plugin-sass-1.0.0.tgz#d7784ac229eced0a17aaa8f984b28f26bbc5dcb5"
-  integrity sha512-HIwK00lmCU3W+JiEF0unzs211tFtlz+MDAtbl/fPOqm++78xkyzfZXA9iQwicY3JSkMHraZD3f4DiuMjAdqU1A==
+esbuild-plugin-sass@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/esbuild-plugin-sass/-/esbuild-plugin-sass-1.0.1.tgz#0e42c683bb60dadc13d767d5b39fbf92f8a36425"
+  integrity sha512-YFxjzD9Z1vz92QCJcAmCO15WVCUiOobw9ypdVeMsW+xa6S+zqryLUIh8d3fe/UkRHRO5PODZz/3xDAQuEXZwmQ==
   dependencies:
     css-tree "1.1.3"
     fs-extra "10.0.0"
